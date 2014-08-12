@@ -5,7 +5,8 @@ This bash script enables Linux to auto-remove pages of data within an SSD. This 
 
 ## Info
 
-[Read for very useful information](http://blog.neutrino.es/2013/howto-properly-activate-trim-for-your-ssd-on-linux-fstrim-lvm-and-dmcrypt/)
+
+[Read for very useful information ](http://blog.neutrino.es/2013/howto-properly-activate-trim-for-your-ssd-on-linux-fstrim-lvm-and-dmcrypt/)
 - Location: "/etc/cron.weekly/"
 - Logs are located in "/var/log/fstrim.log"
 
@@ -15,3 +16,15 @@ We have to make sure *issue_discards* is enabled.
 Run $ cat /etc/lvm/lvm.conf | grep issue_discards
 
 The value should be = 1
+
+# xbindkeys
+This is my edited copy of xbindkeys for a Logitech MX pro mouse, but this can be edited for any keyboard of mouse combination. Please read the writeup for more information 
+
+## Info
+
+[Writeup ](http://kd8bny.blogspot.com/2013/12/become-key-binding-pro-using-xbindkeys.html)
+
+- Required packages
+  - xbindkeys && xautomation
+- Location: "~/"
+

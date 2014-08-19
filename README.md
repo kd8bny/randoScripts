@@ -1,4 +1,5 @@
-This is a collection of scripts that I have built and maintained using a variety of different sources for Linux. All of my scripts have been built and tested using the Ubuntu distribution.
+This is a collection of scripts that I have built and maintained using a variety of different sources for Linux. All of my scripts have been built and tested using the Ubuntu distribution. 
+# [Writeup ](http://kd8bny.blogspot.com/2014/08/useful-linux-scripts.html)
 
 # fstrim
 This bash script enables Linux to auto-remove pages of data within an SSD. This is required because the smallest write to a SSD is a page and the smallest delete is a page: (page << block).

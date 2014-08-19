@@ -1,0 +1,10 @@
+#! /bin/sh
+LOG=/var/log/syncGrive.log
+griveDir=$HOME/grive
+
+echo "*** $(date -R) ***" >> $LOG
+
+for account in $griveDir/* ; do
+	(cd $account && grive >> $LOG)
+	(cd $account && rm -r .trash >> $LOG) 
+done

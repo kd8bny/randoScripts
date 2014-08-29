@@ -9,7 +9,7 @@ In default operation Ubuntu sets the backlight of your laptop to maximum brightn
 
 ### Info
 
-[Writeup](Coming soon)
+[Writeup](http://kd8bny.blogspot.com/2014/08/another-useful-script-better-brightness.html)
 
 *IMPORTANT:* If you have already edited your *rc.local* do **NOT** replace it with my copy. (You know if you did this) ;)
 - Location: "/etc/rc.local"
